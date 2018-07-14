@@ -34,7 +34,7 @@
                 </div>
                 <div class="login-footer">
                     <div class="pull-left">
-                        &copy; 2014 AppName
+                        &copy; 2018 HappyTrip
                     </div>
                     <div class="pull-right">
                         <a href="#">About</a> |
