@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('auth.login');
 });
+
+Route::get('/tourpacket', 'TourPacket\ViewController@index');
+Route::get('/tourpacket/new', 'TourPacket\ViewController@create');
+Route::post('/tourpacket/create', 'TourPacket\PostController@create');
